@@ -1,4 +1,5 @@
 from room import Room
+from player import Player
 
 # Declare all the rooms
 
@@ -37,9 +38,18 @@ room['treasure'].s_to = room['narrow']
 # Main
 #
 
+user = int(input("[n] North [e] East [s] South [w] West    [q] Quit\n"))
+
 # Make a new player object that is currently in the 'outside' room.
 
+player = {
+    'John': Player('John', 'outside')
+}
+
 # Write a loop that:
+while not user == q:
+    if user == n
+    print('%s is in the %s' % (name, room))
 #
 # * Prints the current room name
 # * Prints the current description (the textwrap module might be useful here).
